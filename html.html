@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title> AV1 PROGRAMAÇÃO WEB </title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -256,11 +257,14 @@
 					<img src="imagens/iphonedelado1.png" alt="description image 1">
 					</div>
 					<div class="col-md-6 col-lg-5">
-					<h2>The Perfect App To Improve Your Team's Productivity</h2>
-					<p>We've built Onetouch with a very precise mission which is to help both managers and team members communicate and work together better.</p>
-					<p>We enjoy creating solutions that bring people together with the help of technology.</p>
+					<h2 class="letra titulo">The Perfect App To Improve Your Team's Productivity</h2>
+					<p class="letra">We've built Onetouch with a very precise mission which is to help both managers and team members communicate and work together better.</p>
+					<p class="letra">We enjoy creating solutions that bring people together with the help of technology.</p>
 					<div >
-						<a href="#insert-your-link">Read More</a>
+						<a class="button-small-solid scrolling" href="#insert-your-link">Read More</a>
+
+
+						</a>
 					</div>
 				</div>
 			</div>
@@ -275,74 +279,74 @@
 		<div class="container">	
 			<div class="row">
 				<div class="col-md-6 col-md-push-6 col-lg-7 col-lg-push-5">
-					<img class="img-responsive" src="imagens/iphonedelado2.png" alt="description image 2">
+					<img class="img-responsive" src="imagens/iphonedelado2" alt="description image 2">
 				</div>
 				<div class="col-md-6 col-md-pull-6 col-lg-5 col-lg-pull-7">
 					<!-- Tabs -->
 					<ul class="nav nav-pills">
 						<li class="active"><a href="#tab_a" data-toggle="tab">Dashboard</a></li>
-						<li class="active"><a href="#tab_b" data-toggle="tab">Statistics</a></li>
-						<li class="active"><a href="#tab_c" data-toggle="tab">Support</a></li>
+						<li><a href="#tab_b" data-toggle="tab">Statistics</a></li>
+						<li><a href="#tab_c" data-toggle="tab">Support</a></li>
 					</ul>
 					<div class="tab-content">
-						<div class="tab-pane fade active in" id="tab_a">
+						<div class="tab-pane fade in active" id="tab_a">
 							<p>Onetouch is the right mobile application for project and team management. Download it today and notice how:</p>
-							<ul class="nav nav-pills">
-								<li class="checkmark"><span>✓</span>You and your team begin to be more productive</li>
-								<li class="checkmark"><span>✓</span>You get more stuff done throughout the day</li>
-								<li class="checkmark"><span>✓</span>Objectives are met daily and you are in control</li>
+							<ul>
+								<li><span class="checkmark">&#x2713;</span>You and your team begin to be more productive</li>
+								<li><span class="checkmark">&#x2713;</span>You get more stuff done throughout the day</li>
+								<li><span class="checkmark">&#x2713;</span>Objectives are met daily and you are in control</li>
 							</ul>
 							<div class="text-center">
 								<a class="button-small-solid scrolling" href="#about-us">About Us</a>
 							</div>
 						</div>
-						<div id="tab_b">
+						<div class="tab-pane fade" id="tab_b">
 							<p>Customers reported increased performance in the following business areas, on average:</p>
-							<div >
-								<div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 									Improved Productivity 70%
 								</div>
 							</div>
-							<div >	
-								<div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+							<div class="progress">	
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
 									Goals Realization 90%
 								</div>
 							</div>
-							<div >
-								<div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
 									Accuracy Increase 80%
 								</div>
 							</div>
 						</div>
-						<div id="tab_c">
+						<div class="tab-pane fade" id="tab_c">
 							<p>We are proud about the community we've created around Onetouch and we'll continue to invest significant resources in it's development.</p>
 							<p>When you download Onetouch you also get access to our extensive knowledge base containing updated written articles and easy to follow video tutorials.</p>
-							<div >
-								<a href="#header">Download</a>
+							<div class="text-center">
+								<a class="button-small-solid scrolling" href="#header">Download</a>
 							</div>
 						</div>
-					</div>
+					</div><!-- end of tab content -->
+				</div>
 				
 			</div>
 		</div>
-    </div>
+    </div> <!-- end of description 2 -->
 
 		<!-- video youtube -->
-
-    <div id="video">
-		<div >
-			<div 
-				<div >
-					<div >
-						<iframe src="https://www.youtube.com/embed/Ey1lkwYGSC0" allowfullscreen=""></iframe>
+		<div id="video" class="verde">
+		<div class="container verde">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<div class="embed-responsive embed-responsive-16by9 center-block">
+						<iframe src="https://www.youtube.com/embed/Ey1lkwYGSC0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div >
+				<div class="col-md-10 col-md-offset-1 text-center">
 					<p>Onetouch was developed for better team collaboration and communication while enabling its users to focus on meeting the project's goals. Check out the video for a quick overview of its main features.</p>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 </body>
 
 					<!-- ABOUT US -->
