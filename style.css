@@ -1,0 +1,83 @@
+.fundoazul{
+  background-color: #41a2ef;
+}
+/*arquivo css começa aqui*/
+
+#ba1 {
+  background-color: #41a2ef;
+}
+
+#ba1-img{
+  margin-left: 10%;
+  margin-right:0%;
+  ma
+}
+#texto{
+  display: block;
+  text-align: right;
+  margin-top: 0%;
+}
+
+p.carousel-inner{
+  text-align: center;
+}
+
+#depoimentos{
+  padding-top: 20px;
+  background-color: #eeeeee;
+
+}
+
+#banner-texto{
+
+ color:white;
+ margin-top: 15%;
+}
+
+#img-banner{
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+}
+
+.caracteristicas{
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+}
+
+.carousel-control.right {
+  background-image: none !important;
+}
+
+.carousel-control.left {
+  background-image: none !important;
+}
+
+.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev {
+  display: inline-block; !important;
+}
+
+#testimonials {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    background-color: #eeeeee;
+    }
+
+.center-block {
+    
+    margin-left: none;
+}
+
+#texto2{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#descricao1{
+  background-color: #eeeeee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
