@@ -1,5 +1,12 @@
+.cor{
+	background-color: #41a2ef;
+	text-decoration: none;
+}
+
+
 .fundoazul{
   background-color: #41a2ef;
+  margin-top: 50px;
 }
 /*arquivo css começa aqui*/
 
@@ -127,6 +134,10 @@ p {
 #description-1 h1 {
     margin-bottom: 40px;
     color: #535252;
+}
+.navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
 }
 
 #description-2 {
